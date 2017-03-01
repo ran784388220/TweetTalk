@@ -1,0 +1,24 @@
+{
+  "name": "Tweet_Talk",
+  "version": "1.0.0-4",
+  "private": true,
+  "scripts": {
+    "start": "node tweetTalk.js"
+  },
+  "dependencies": {
+    "alchemy-api": "1.0.2",
+    "async": "0.9.0",
+    "consolidate": "0.10.0",
+    "express": "3.4.0",
+    "firebase": "1.0.17",
+    "jade": "*",
+    "jquery": "2.1.1",
+    "path": "0.4.9",
+    "request": "2.36.0",
+    "twit": "*"
+  },
+  "subdomain": "tweetTalk",
+  "engines": {
+    "node": "0.10.x"
+  }
+}

@@ -1,0 +1,164 @@
+
+body {
+  font-family: 'Oswald', serif;
+}
+
+#center_col{
+  float:left;
+  border:3px #ff0 solid;
+  height:auto;
+  width:400px;
+  background-color:#F2F2F2;
+  border-right-color: rgb(44,151,162);
+  border-left-color: rgb(44,151,162);
+  border-top-color: black;
+  border-bottom-color: black;
+  border-right-width: 3px;
+  overflow: hidden;
+}
+
+/*left side*/
+span.title{
+  font-size:25px;
+  font-family: 'Oswald',serif;
+  color:grey;
+  margin-left: 10px;
+}
+
+span.ex{
+  font-family: 'Oswald', serif;
+  font-size: 15px;
+  color:grey;
+  margin-left: 50px;
+}
+
+hr{
+  display:block;
+  height: 5px;
+  background-color: rgb(44,151,162);
+}
+
+.s{
+  width:150px;
+  height: 20px;
+  margin-top: 10px;
+  float:right;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.under-input{
+  float:right;
+  margin-right: 20px;
+  font-family: 'Oswald',serif;
+  color:rgb(44,151,162);
+  overflow: hidden;
+}
+
+.logo{
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+
+#profile{
+  width:100%;
+  height:500px;
+  margin-top: 0px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  background-color: rgb(44,151,162);
+}
+
+.expertblock {
+  width:100%;
+  padding-top: 10px;
+  background-color:#CECECE;
+  border-top: 1px solid black;
+}
+
+#tw_desc {
+  width: 100%;
+  color: #383838;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: small;
+}
+
+.tweetblock {
+  width: 100%;
+  background-color:white;
+  border-bottom: 1px solid black;
+}
+.table {
+  width:auto;
+  height: auto;
+  min-height: 75px;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-top: -80px;
+}
+
+#tweets {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width:auto;
+  height:auto;
+  font-size: large;
+  font-family: 'Oswald',serif;
+  word-break: keep-all;
+}
+
+.handle{
+  color: blue;
+}
+
+#username{
+  font-size: 18px;
+  text-align:left;
+  z-index: 2;
+  color: black;
+  margin-top: -85px;
+}
+
+
+img.header0{
+  width:75px;
+  height:75px;
+  margin-left: 10px;
+  z-index: 2;
+}
+
+#overlay {
+  width: 405px;
+  height: 620px;
+  display: block;
+  position: absolute;
+  background: black;
+  opacity: 0.5;
+  z-index: 100;
+}
+
+#loading {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid ;
+  margin-top: 250px;
+  margin-left: 140px;
+  background: #E0E0E0;
+  border-color: rgb(44,151,162);
+  font-weight: bold;
+  font-size: large;
+  padding: 10px;
+  text-align: center;
+  z-index: 101;
+}
